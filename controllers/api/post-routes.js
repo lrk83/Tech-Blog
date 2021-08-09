@@ -77,9 +77,11 @@ router.get('/:id', (req, res) => {
 
 router.post('/', withAuth, (req, res) => {
   // expects {title: 'Taskmaster goes public!', post_text: 'Hey, hello, hi' user_id: 1}
+  console.log(req.body);
+  
   Post.create({
     title: req.body.title,
-    post_text: req.body.text,
+    post_text: req.body.post_text,
     user_id: req.body.user_id
   })
     .then(dbPostData => res.json(dbPostData))

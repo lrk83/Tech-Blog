@@ -146,6 +146,7 @@
   
   .comment:nth-child(odd) {
     background-color: #fff5eb;
+    border-radius: 10px;
   }
   
   .comment .meta {
@@ -182,4 +183,26 @@
     border-radius: 5px;
     padding: 3px;
     border: 1px solid;
+  }
+
+  .single-post{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .single-post .title{
+    align-self: center;
+    text-align: center;
+  }
+
+  .single-post .date{
+    padding-top: 3px;
+    padding-bottom: 10px;
+  }
+
+  textarea {
+    width: 100%;
   }
