@@ -15,7 +15,7 @@
 </section>
 
 {{#if posts.length}}
-<section>
+<section class = "your-posts">
   <h2>Your Posts</h2>
   <ul>
 
@@ -23,13 +23,13 @@
     <li>
         <article class="post">
             <div class="title">
-                <h2>{{title}}</h2>
+                <a href="/post/{{id}}"><h2>{{title}}</h2></a>
             </div>
             <div class="date">
                 by {{user.username}} on {{format_date created_at}}
             </div>
             <div class ='edit'>
-                <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+                <button href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</button>
             </div>
         </article>
     </li>
