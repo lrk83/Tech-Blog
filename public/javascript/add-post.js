@@ -4,7 +4,7 @@ async function newFormHandler(event) {
     console.log("I've been submeeeteeeed");
 
     const title = document.querySelector('input[name="post-title"]').value;
-    const post_text = document.querySelector('textarea[name="post-text"]').value.trim();
+    const post_text = document.querySelector('textarea[name="post-text"]').value;
   
   console.log(post_text);
 

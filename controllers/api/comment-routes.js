@@ -44,4 +44,23 @@ router.delete('/:id', withAuth, (req, res) => {
     });
 });
 
+router.delete('/past/:id', withAuth, (req, res) => {
+  Comment.destroy({
+    where: {
+      post_id: req.params.id
+    }
+  })
+    .then(dbCommentData => {
+      if (!dbCommentData) {
+        res.status(404).json({ message: 'No comments found with this post_id!' });
+        return;
+      }
+      res.json(dbCommentData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
 module.exports = router;
