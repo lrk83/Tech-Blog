@@ -10,4 +10,6 @@ Once they've logged in they may navigate to the homepage, the dashboard, or clic
 
 ##Screenshots
 
-![]()
+![Homepage](https://github.com/lrk83/Tech-Blog/blob/main/screenshots/Screen%20Shot%202021-08-16%20at%203.42.21%20PM.png)
+![Dashboard](https://github.com/lrk83/Tech-Blog/blob/main/screenshots/Screen%20Shot%202021-08-16%20at%203.42.49%20PM.png)
+![Single-Post](https://github.com/lrk83/Tech-Blog/blob/main/screenshots/Screen%20Shot%202021-08-16%20at%203.43.00%20PM.png)
