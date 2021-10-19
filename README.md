@@ -1,5 +1,7 @@
 # Tech-Blog
 
+[Deployed Application](https://lrk83-tech-blog.herokuapp.com/)
+
 ## Description
 
 This is a CMS-style blog site for tech writers to publish their thoughts and opinions. The site allows visitors to view existing blog posts, or log in to make their own posts and comment on others'. 
